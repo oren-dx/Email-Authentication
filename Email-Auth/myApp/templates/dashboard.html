@@ -1,0 +1,9 @@
+{% extends 'master/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block bodyContent %}
+
+    <h1 class="py-3">Welcome, {{request.user.username}}</h1>
+
+{% endblock bodyContent %}
